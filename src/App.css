@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.main{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-style:groove;
+  width: 30%;
+  height: 30%;
+}
+
+.container{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.main_title{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+
+}
+
+img{
+  margin-left: -20px;
+  height: 180%;
+  width: 155%;
+}
+
+
+
+.main_block{
+  display: flex;
+  justify-content: space-between;
+  }
+
+.blocks{
+  margin-left: 30px;
+  width: 25%;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+.diam{
+  margin-left: 30px;
+  height: 30px;
+  width: 100px;
+}
+
+.quantity{
+  margin-left: 30px;
+  height: 30px;
+  width: 100px;
+}
+
+.add_cart {
+  background: green;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
